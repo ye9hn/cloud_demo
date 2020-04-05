@@ -1,0 +1,16 @@
+微服务模块流程
+1、建module
+2、改pom
+3、写yml
+4、主启动类
+5、业务类
+ <modules>
+        <module>cloud-provider-payment8001</module>
+        <module>cloud-consumer-order80</module>
+        <module>cloud-api-commons</module>
+        <module>cloud-eureka-server7001</module>
+        <module>cloud-eureka-server7002</module>
+    </modules>
+服务注册eureka地址：
+    http://eureka7001.com:7001/eureka
+    http://eureka7002.com:7002/eureka

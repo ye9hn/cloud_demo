@@ -1,0 +1,16 @@
+server:
+  port: 7001
+
+eureka:
+  instance:
+    hostname: eureka7001.com   #eureka服务端的实例名称enreka7001.com enreka7002.com是eureka集群
+  client:
+    #false表示不向注册中心注册自己
+    register-with-eureka: false
+    #false表示自己端就是注册中心，职责就是维护服务实例，不需要检索服务
+    fetch-registry: false
+    service-url:
+      #设置eureka server交互的地址查询服务注册和注册服务都需要依赖这个地址,单机版设置
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      #向eureka server集群注册,这里注册到集群中的其中一个实例,相互注册
+      defaultZone: http://eureka7002.com:7002/eureka
