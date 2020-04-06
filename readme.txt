@@ -4,13 +4,28 @@
 3、写yml
 4、主启动类
 5、业务类
- <modules>
-        <module>cloud-provider-payment8001</module>
-        <module>cloud-consumer-order80</module>
+<modules>
         <module>cloud-api-commons</module>
+        <module>cloud-consumer-order80</module>
+        <!--eureka服务注册中心
+        服务注册eureka地址：
+            http://eureka7001.com:7001/eureka
+            http://eureka7002.com:7002/eureka-->
         <module>cloud-eureka-server7001</module>
         <module>cloud-eureka-server7002</module>
+        <!--8001、8002使用eureka作为服务注册中心-->
+        <module>cloud-provider-payment8001</module>
+        <module>cloud-provider-payment8002</module>
+         <!--8004、80使用zookeeper作为服务注册中心
+         zookeeper地址
+             192.168.0.108:2181-->
+        <module>cloud-provider-payment8004</module>
+         <module>cloud-consumerzk-order80</module>
+         <!--8006、80使用consul作为服务注册中心
+         consul注册中心访问地址http://localhost:8500
+         -->
+
+        <module>cloud-provider-payment8006</module>
+        <module>cloud-consumerconsul-order80</module>
     </modules>
-服务注册eureka地址：
-    http://eureka7001.com:7001/eureka
-    http://eureka7002.com:7002/eureka
+
