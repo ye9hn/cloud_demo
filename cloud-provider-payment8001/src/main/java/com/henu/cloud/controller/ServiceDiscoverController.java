@@ -2,6 +2,7 @@ package com.henu.cloud.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,6 +13,7 @@ import java.util.List;
 @RestController
 @Slf4j
 public class ServiceDiscoverController {
+
     @Autowired
     private DiscoveryClient discoveryClient;
     @GetMapping("/payment/discover")
@@ -26,4 +28,12 @@ public class ServiceDiscoverController {
         }
         return discoveryClient;
     }
+    @Value("${server.port}")
+    private String serverPort;
+    //测试负载均衡用
+    @GetMapping("/payment/lb")
+    public String getPaymentLB(){
+       return serverPort;
+    }
+
 }

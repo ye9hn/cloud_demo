@@ -24,8 +24,15 @@
          <!--8006、80使用consul作为服务注册中心
          consul注册中心访问地址http://localhost:8500
          -->
-
         <module>cloud-provider-payment8006</module>
         <module>cloud-consumerconsul-order80</module>
     </modules>
+
+
+ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的依赖，所以客户端可以直接使用，ribbon就是负载均衡+RestTemplate
+ <!--eureka client端依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
 
