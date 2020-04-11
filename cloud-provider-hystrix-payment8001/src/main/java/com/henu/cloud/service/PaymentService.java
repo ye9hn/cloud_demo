@@ -7,4 +7,5 @@ public interface PaymentService{
     public Payment getPaymentById(Long id);
     public String paymentInfo_OK(Integer id);
     public  String paymentInfo_TimeOut(Integer id);
+    public String paymentCircuitBreaker(Integer id);
 }
