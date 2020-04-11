@@ -17,10 +17,7 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-#logging:
-#  level:
-#    com.henu.cloud.dao:
-#      info
+
 eureka:
   client:
     #表示是否将自己注册进eurekaserver默认为true

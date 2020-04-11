@@ -59,6 +59,18 @@ ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的�
         <module>cloud-eureka-server7001</module>
         <module>cloud-eureka-server7002</module>
 
+        <!--Hystrix图形化监控工具Dashborad-->
+        <module>cloud-consumer-hystrix-dashboard9001</module>
+        如果要使用dashboard监控某个服务，微服务必须添加下面依赖用来暴露服务和允许spring mvc
+         <dependency>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-starter-web</artifactId>
+         </dependency>
+
+         <dependency>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-starter-actuator</artifactId>
+         </dependency>
 
 @EnableDiscoveryClient和@EnableEurekaClient共同点就是：都是能够让注册中心能够发现，扫描到改服务。
 不同点：@EnableEurekaClient只适用于Eureka作为注册中心，@EnableDiscoveryClient 可以是其他注册中心。
