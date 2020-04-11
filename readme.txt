@@ -72,5 +72,11 @@ ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的�
                <artifactId>spring-boot-starter-actuator</artifactId>
          </dependency>
 
+         <module>cloud-gateway-gateway9527</module>
+         <module>cloud-eureka-server7001</module>
+         <module>cloud-eureka-server7002</module>
+         <!--8001、8002使用eureka作为服务注册中心-->
+         <module>cloud-provider-payment8001</module>
+         <module>cloud-provider-payment8002</module>
 @EnableDiscoveryClient和@EnableEurekaClient共同点就是：都是能够让注册中心能够发现，扫描到改服务。
 不同点：@EnableEurekaClient只适用于Eureka作为注册中心，@EnableDiscoveryClient 可以是其他注册中心。
