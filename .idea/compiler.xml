@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-consumer-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
+        <module name="cloud-config-client3366" />
+        <module name="cloud-config-center3344" />
         <module name="cloud-eureka-server7001" />
         <module name="cloud-api-commons" />
         <module name="cloud-provider-payment8006" />
@@ -22,10 +24,14 @@
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-consumer-feign-order80" />
+        <module name="cloud-config-client3355" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-api-commons" target="1.8" />
+      <module name="cloud-config-center3344" target="1.8" />
+      <module name="cloud-config-client3355" target="1.8" />
+      <module name="cloud-config-client3366" target="1.8" />
       <module name="cloud-consumer-feign-hystrix-order80" target="1.8" />
       <module name="cloud-consumer-feign-order80" target="1.8" />
       <module name="cloud-consumer-hystrix-dashboard9001" target="1.8" />
