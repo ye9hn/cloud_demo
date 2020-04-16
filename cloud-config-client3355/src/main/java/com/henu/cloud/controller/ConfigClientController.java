@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope//这个客户端自动刷新要加上
 public class ConfigClientController {
-    @Value("${server.port}")
+    @Value("${config.info}")
     String configInfo;
     @GetMapping("/configInfo")
     public String configInfo(){

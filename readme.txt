@@ -81,6 +81,7 @@ ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的�
          <module>cloud-provider-payment8002</module>
 
         <!--服务配置中心和消息总线-->
+        <!--curl -X POST "http://localhost:3344/actuator/bus-refresh"刷新config-server-->
          <module>cloud-eureka-server7001</module>
          <module>cloud-eureka-server7002</module>
          <module>cloud-config-center3344</module>
