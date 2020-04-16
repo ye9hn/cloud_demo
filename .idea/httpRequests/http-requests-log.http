@@ -1,7 +1,0 @@
-GET http://localhost:8001/actuator
-Accept: application/vnd.spring-boot.actuator.v3+json
-
-<> 2020-04-09T095613.200.json
-
-###
-
