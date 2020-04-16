@@ -72,6 +72,7 @@ ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的�
                <artifactId>spring-boot-starter-actuator</artifactId>
          </dependency>
 
+         <!--服务网关-->
          <module>cloud-gateway-gateway9527</module>
          <module>cloud-eureka-server7001</module>
          <module>cloud-eureka-server7002</module>
@@ -79,6 +80,7 @@ ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的�
          <module>cloud-provider-payment8001</module>
          <module>cloud-provider-payment8002</module>
 
+        <!--服务配置中心和消息总线-->
          <module>cloud-eureka-server7001</module>
          <module>cloud-eureka-server7002</module>
          <module>cloud-config-center3344</module>
