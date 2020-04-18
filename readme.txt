@@ -80,12 +80,18 @@ ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的�
          <module>cloud-provider-payment8001</module>
          <module>cloud-provider-payment8002</module>
 
-        <!--服务配置中心和消息总线-->
-        <!--curl -X POST "http://localhost:3344/actuator/bus-refresh"刷新config-server-->
+         <!--服务配置中心和消息总线-->
+         <!--curl -X POST "http://localhost:3344/actuator/bus-refresh"刷新config-server-->
+         <!--curl -X POST "http://localhost:3344/actuator/bus-refresh/{spring.application.name:端口号}"定点刷新服务-->
          <module>cloud-eureka-server7001</module>
          <module>cloud-eureka-server7002</module>
          <module>cloud-config-center3344</module>
          <module>cloud-config-client3355</module>
          <module>cloud-config-client3366</module>
+
+        <!--Spring Cloud Stream封装消息生产者和消费者 消息驱动的微服务-->
+         <module>cloud-eureka-server7001</module>
+         <module>cloud-eureka-server7002</module>
+         <module>cloud-stream-kafka-provider8801</module>
 @EnableDiscoveryClient和@EnableEurekaClient共同点就是：都是能够让注册中心能够发现，扫描到改服务。
 不同点：@EnableEurekaClient只适用于Eureka作为注册中心，@EnableDiscoveryClient 可以是其他注册中心。

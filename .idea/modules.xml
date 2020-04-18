@@ -20,6 +20,9 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8006/cloud-provider-payment8006.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8006/cloud-provider-payment8006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-kafka-consumer8802/cloud-stream-kafka-consumer8802.iml" filepath="$PROJECT_DIR$/cloud-stream-kafka-consumer8802/cloud-stream-kafka-consumer8802.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-kafka-consumer8803/cloud-stream-kafka-consumer8803.iml" filepath="$PROJECT_DIR$/cloud-stream-kafka-consumer8803/cloud-stream-kafka-consumer8803.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-kafka-provider8801/cloud-stream-kafka-provider8801.iml" filepath="$PROJECT_DIR$/cloud-stream-kafka-provider8801/cloud-stream-kafka-provider8801.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud_demo.iml" filepath="$PROJECT_DIR$/cloud_demo.iml" />
     </modules>
   </component>

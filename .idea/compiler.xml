@@ -20,7 +20,10 @@
         <module name="cloud-provider-payment8001" />
         <module name="cloud-consumerzk-order80" />
         <module name="cloud-eureka-server" />
+        <module name="cloud-stream-kafka-consumer8803" />
         <module name="cloud-consumer-feign-hystrix-order80" />
+        <module name="cloud-stream-kafka-provider8801" />
+        <module name="cloud-stream-kafka-consumer8802" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-consumer-feign-order80" />
@@ -47,6 +50,9 @@
       <module name="cloud-provider-payment8002" target="1.8" />
       <module name="cloud-provider-payment8004" target="1.8" />
       <module name="cloud-provider-payment8006" target="1.8" />
+      <module name="cloud-stream-kafka-consumer8802" target="1.8" />
+      <module name="cloud-stream-kafka-consumer8803" target="1.8" />
+      <module name="cloud-stream-kafka-provider8801" target="1.8" />
       <module name="cloud_demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
