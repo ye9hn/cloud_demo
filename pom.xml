@@ -19,7 +19,7 @@
         <module>cloud-consumer-feign-order80</module>
         <module>cloud-provider-hystrix-payment8001</module>
         <module>cloud-consumer-feign-hystrix-order80</module>
-        <module>cloud-consumer-hystrix-dashboard9001</module>
+        <module>cloud-consumer-hystrix-dashboard9000</module>
         <module>cloud-gateway-gateway9527</module>
         <module>cloud-config-center3344</module>
         <module>cloud-config-client3355</module>
@@ -27,6 +27,10 @@
         <module>cloud-stream-kafka-provider8801</module>
         <module>cloud-stream-kafka-consumer8802</module>
         <module>cloud-stream-kafka-consumer8803</module>
+        <module>cloud-alibaba-provider-payment9001</module>
+        <module>cloud-alibaba-provider-payment9002</module>
+        <module>cloud-alibaba-consumer-nacos-order83</module>
+        <module>cloud-alibaba-config-nacos-client3377</module>
     </modules>
     <packaging>pom</packaging>
     <name>cloud_demo</name>

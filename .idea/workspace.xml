@@ -2,32 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a38d67f-ce11-48e9-8fa8-4821d1b179c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-kafka-consumer8802/cloud-stream-kafka-consumer8802.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-kafka-consumer8803/cloud-stream-kafka-consumer8803.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-kafka-provider8801/cloud-stream-kafka-provider8801.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_config_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_discovery_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/cloud-alibaba-config-nacos-client3377.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/cloud-alibaba-consumer-nacos-order83.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/cloud-alibaba-provider-payment9001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/cloud-alibaba-provider-payment9002.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/cloud-config-client3355.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/cloud-config-client3355.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client3366/cloud-config-client3366.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3366/cloud-config-client3366.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/cloud-consumer-feign-hystrix-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/cloud-consumer-feign-hystrix-order80.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/cloud-consumer-feign-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/cloud-consumer-feign-order80.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/cloud-consumer-hystrix-dashboard9001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/cloud-consumer-hystrix-dashboard9001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumerconsul-order80/cloud-consumerconsul-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/cloud-consumerconsul-order80.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8006/cloud-provider-payment8006.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8006/cloud-provider-payment8006.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/cloud-consumer-hystrix-dashboard9001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9000/cloud-consumer-hystrix-dashboard9000.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9000/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/henu/cloud/HystrixDashboardMain9001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9000/src/main/java/com/henu/cloud/HystrixDashboardMain9001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9000/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9000/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/target/classes/com/henu/cloud/HystrixDashboardMain9001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9000/target/classes/com/henu/cloud/HystrixDashboardMain9001.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
     </list>
@@ -57,6 +55,11 @@
     <ignored path="$PROJECT_DIR$/cloud-stream-kafka-provider8801/target/" />
     <ignored path="$PROJECT_DIR$/cloud-stream-kafka-consumer8802/target/" />
     <ignored path="$PROJECT_DIR$/cloud-stream-kafka-consumer8803/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9000/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -102,25 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/henu/cloud/service/impl/PaymentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/henu/cloud/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/henu/cloud/PaymentHystrixMain8001.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/henu/cloud/HystrixDashboardMain9001.java" />
-        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/henu/cloud/GatewayMain9527.java" />
-        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/henu/cloud/config/GatewayConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/henu/cloud/filter/MyLogGatewayFilter.java" />
-        <option value="$PROJECT_DIR$/cloud-config-server3344/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-server3344/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config-server3344/src/main/java/com/henu/cloud/ConfigCenterMain3344.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config-center3344/src/main/java/com/henu/cloud/ConfigCenterMain3344.java" />
-        <option value="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/henu/cloud/ConfigClientMain3355.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-config-client3366/src/main/java/com/henu/cloud/ConfigClientMain3366.java" />
@@ -151,8 +135,27 @@
         <option value="$PROJECT_DIR$/cloud-stream-kafka-consumer8803/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-stream-kafka-consumer8803/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud-stream-kafka-consumer8802/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/cloud-stream-kafka-provider8801/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/src/main/java/com/henu/cloud/PaymentMain9001.java" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/src/main/java/com/henu/cloud/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/java/com/henu/cloud/PaymentMain9002.java" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/java/com/henu/cloud/OrderMain83.java" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/java/com/henu/cloud/controller/OrderNacosController.java" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/java/com/henu/cloud/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/henu/cloud/NacosConfigClientMain3377.java" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/henu/cloud/controller/ConfigClientController.java" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -171,7 +174,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-alibaba-provider-payment9001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-alibaba-provider-payment9001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -179,9 +192,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="588" />
-    <option name="y" value="1" />
-    <option name="width" value="605" />
+    <option name="x" value="738" />
+    <option name="width" value="634" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -189,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -197,116 +210,10 @@
               <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-consumer8802" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-consumer8802" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-consumer8802" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-consumer8802" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-consumer8803" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-consumer8803" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-consumer8803" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-consumer8803" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-consumer8803" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-consumer8803" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-consumer8803" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-provider8801" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-provider8801" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-provider8801" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-kafka-provider8801" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,7 +225,7 @@
     <property name="ToolWindowProblems.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-stream-kafka-consumer8803/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -327,21 +234,21 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\DataSpace\IdeaSpace\cloud_demo" />
-      <recent name="D:\DataSpace\IdeaSpace\cloud_demo\eureka-server" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DataSpace\IdeaSpace\cloud_demo\cloud-alibaba-consumer-nacos-order83\src\main\resources" />
+      <recent name="D:\DataSpace\IdeaSpace\cloud_demo\cloud-alibaba-provider-payment9002\src\main\resources" />
+      <recent name="D:\DataSpace\IdeaSpace\cloud_demo\cloud-stream-kafka-consumer8803\src\main\resources" />
+      <recent name="D:\DataSpace\IdeaSpace\cloud_demo\cloud-stream-kafka-consumer8802\src\main\resources" />
+      <recent name="D:\DataSpace\IdeaSpace\cloud_demo\cloud-config-center3344\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.henu.cloud.controller" />
       <recent name="com.henu.cloud.config" />
       <recent name="com.henu.cloud.dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DataSpace\IdeaSpace\cloud_demo\cloud-stream-kafka-consumer8803\src\main\resources" />
-      <recent name="D:\DataSpace\IdeaSpace\cloud_demo\cloud-stream-kafka-consumer8802\src\main\resources" />
-      <recent name="D:\DataSpace\IdeaSpace\cloud_demo\cloud-config-center3344\src\main\resources" />
-      <recent name="D:\DataSpace\IdeaSpace\cloud_demo\cloud-config-client3355\src\main\resources" />
-      <recent name="D:\DataSpace\IdeaSpace\cloud_demo\cloud-config-client3366\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DataSpace\IdeaSpace\cloud_demo" />
+      <recent name="D:\DataSpace\IdeaSpace\cloud_demo\eureka-server" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -381,9 +288,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.19860896" />
+    <option name="contentProportion" value="0.23956724" />
   </component>
-  <component name="RunManager" selected="Spring Boot.StreamMQMain8803">
+  <component name="RunManager" selected="Spring Boot.NacosConfigClientMain3377">
     <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-center3344" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.cloud.ConfigCenterMain3344" />
@@ -391,14 +298,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-client3355" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.cloud.ConfigClientMain3355" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -433,6 +334,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-hystrix-dashboard9000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.cloud.HystrixDashboardMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConfigClientMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-config-nacos-client3377" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.cloud.NacosConfigClientMain3377" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderConsulMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumerconsul-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.cloud.OrderConsulMain80" />
@@ -461,6 +388,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderMain83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-consumer-nacos-order83" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.cloud.OrderMain83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderZkMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumerzk-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.cloud.OrderZkMain80" />
@@ -475,14 +415,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-hystrix-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.cloud.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.cloud.PaymentHystrixMain8001" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -503,6 +437,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-alibaba-provider-payment9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.cloud.PaymentMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-provider-payment9002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.cloud.PaymentMain9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentZKMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment8004" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.cloud.PaymentZKMain8004" />
@@ -510,28 +464,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-stream-kafka-provider8801" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.cloud.StreamMQMain8801" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamMQMain8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-stream-kafka-consumer8802" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.cloud.StreamMQMain8802" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -565,18 +500,22 @@
       <item itemvalue="Spring Boot.ConfigClientMain3366" />
       <item itemvalue="Spring Boot.OrderHystrixMain80" />
       <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
+      <item itemvalue="Spring Boot.PaymentMain9001" />
       <item itemvalue="Spring Boot.ConfigClientMain3355" />
-      <item itemvalue="Spring Boot.StreamMQMain8801" />
-      <item itemvalue="Spring Boot.StreamMQMain8802" />
       <item itemvalue="Spring Boot.StreamMQMain8803" />
+      <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
+      <item itemvalue="Spring Boot.PaymentMain9002" />
+      <item itemvalue="Spring Boot.OrderMain83" />
+      <item itemvalue="Spring Boot.StreamMQMain8801" />
+      <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
+        <item itemvalue="Spring Boot.OrderMain83" />
+        <item itemvalue="Spring Boot.PaymentMain9002" />
+        <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
         <item itemvalue="Spring Boot.StreamMQMain8803" />
-        <item itemvalue="Spring Boot.StreamMQMain8802" />
-        <item itemvalue="Spring Boot.StreamMQMain8801" />
-        <item itemvalue="Spring Boot.ConfigClientMain3355" />
-        <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
       </list>
     </recent_temporary>
   </component>
@@ -611,17 +550,20 @@
       <workItem from="1587036158993" duration="8239000" />
       <workItem from="1587118828000" duration="1620000" />
       <workItem from="1587124537257" duration="8893000" />
-      <workItem from="1587183841560" duration="855000" />
+      <workItem from="1587183841560" duration="2867000" />
+      <workItem from="1587208045336" duration="2654000" />
+      <workItem from="1587213294949" duration="4707000" />
+      <workItem from="1587297158972" duration="6687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153305000" />
+    <option name="totallyTimeSpent" value="169365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22314675" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28668684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -643,19 +585,19 @@
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3715221" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Problems" order="15" show_stripe_button="false" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.5065574" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.4262295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.19667171" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32753405" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info anchor="right" auto_hide="true" x="92" y="92" width="1182" height="544" id="Byte Code Viewer" order="8" side_tool="true" weight="0.44704992" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2624811" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2980333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -663,7 +605,7 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.56393445" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41147542" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -674,16 +616,16 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.60819674" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.37213114" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3715221" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Problems" order="15" show_stripe_button="false" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.5360656" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.2967213" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.19667171" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32753405" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info anchor="right" auto_hide="true" x="92" y="92" width="1182" height="544" id="Byte Code Viewer" order="8" side_tool="true" weight="0.44704992" />
@@ -703,155 +645,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/henu/cloud/config/FeignConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/henu/cloud/OrderFeignMain80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/henu/cloud/service/PaymentFeignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/henu/cloud/controller/OrderFeignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client3366/src/main/java/com/henu/cloud/ConfigClientMain3366.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/henu/cloud/ConfigClientMain3355.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-config-center3344/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/cloud-config-center3344/src/main/java/com/henu/cloud/ConfigCenterMain3344.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client3355/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/cloud-config-client3366/src/main/resources/bootstrap.yml" />
-    <entry file="file://$PROJECT_DIR$/cloud-api-commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-416" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/henu/cloud/entities/CommonResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/henu/cloud/entities/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/henu/cloud/controller/ConfigClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client3366/src/main/java/com/henu/cloud/controller/ConfigClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client3366/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="37" column="52" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="52" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/henu/cloud/service/PaymentHystrixService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/henu/cloud/HystrixDashboardMain9001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/henu/cloud/dao/PaymentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/henu/cloud/service/impl/PaymentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/henu/cloud/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1274">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/henu/cloud/controller/OrderHystrixController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="69" selection-start-line="15" selection-start-column="7" selection-end-line="69" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-300" />
@@ -897,14 +690,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="56" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/henu/cloud/service/impl/PaymentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1039,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="91" column="43" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-stream-kafka-provider8801/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1064,6 +842,222 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9000/src/main/java/com/henu/cloud/HystrixDashboardMain9001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/henu/cloud/PaymentHystrixMain8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9000/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="67" column="21" selection-start-line="20" selection-start-column="8" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/java/com/henu/cloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9001/src/main/java/com/henu/cloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/java/com/henu/cloud/PaymentMain9002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="50" column="19" selection-start-line="20" selection-start-column="7" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9001/src/main/java/com/henu/cloud/PaymentMain9001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" selection-start-line="6" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/java/com/henu/cloud/controller/OrderNacosController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/java/com/henu/cloud/OrderMain83.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/java/com/henu/cloud/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/henu/cloud/controller/ConfigClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="32" column="62" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="62" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/henu/cloud/NacosConfigClientMain3377.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
