@@ -6,7 +6,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8848
+        server-addr: 192.168.0.110:1111 #localhost:8848
 
 #消费者将要去访问的微服务名称(注册成功的)
 service-url:

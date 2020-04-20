@@ -83,7 +83,7 @@ ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的�
          <module>cloud-provider-payment8001</module>
          <module>cloud-provider-payment8002</module>
 
-         <!--服务配置中心和消息总线-->
+         <!--服务配置中心config从GitHub读取配置文件和消息总线bus（这里使用kafka做bus全局和单点刷新操作）-->
          <!--curl -X POST "http://localhost:3344/actuator/bus-refresh"刷新config-server-->
          <!--curl -X POST "http://localhost:3344/actuator/bus-refresh/{spring.application.name:端口号}"定点刷新服务-->
          <module>cloud-eureka-server7001</module>
@@ -93,8 +93,10 @@ ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的�
          <module>cloud-config-client3366</module>
 
         <!--Spring Cloud Stream封装消息生产者和消费者 消息驱动的微服务-->
+        <!--消息消费者-->
          <module>cloud-eureka-server7001</module>
          <module>cloud-eureka-server7002</module>
+         <!--消息生产者-->
          <module>cloud-stream-kafka-provider8801</module>
 
          <!--使用Nacos可以替代eureka+hystrix-->
@@ -106,4 +108,23 @@ ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的�
 @EnableDiscoveryClient和@EnableEurekaClient共同点就是：都是能够让注册中心能够发现，扫描到改服务。
 不同点：@EnableEurekaClient只适用于Eureka作为注册中心，@EnableDiscoveryClient 可以是其他注册中心。
 
+nacos部署在Linux使用nginx做反向代理，部署三个伪分布式节点集群，连接本地mysql数据库
 nginx目录/usr/local/nginx
+./nginx -c /usr/local/nginx/conf/nginx.conf
+
+nacos源码本地mvn打包
+git clone https://github.com/alibaba/nacos.git
+cd nacos/
+mvn -Prelease-nacos -Dmaven.test.skip=true clean install -U
+ls -al distribution/target/
+// change the $version to your actual path
+cd distribution/target/nacos-server-$version/nacos/bin
+打包完成使用7-zip压缩tar包，然后在压缩gz包，使用rz -E命令上传到Linux服务器
+上传后，修改修改conf下的cluster.conf，然后修改startup.sh
+
+修改完成后，使用./startup.sh -p port启动伪分布式节点
+
+这里如果使用Linux配置nacos使用本地的mysql会出现连接不上的问题（访问权限问题）解决方案：
+USE nacos_config;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
