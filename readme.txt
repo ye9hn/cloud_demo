@@ -93,11 +93,13 @@ ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的�
          <module>cloud-config-client3366</module>
 
         <!--Spring Cloud Stream封装消息生产者和消费者 消息驱动的微服务-->
-        <!--消息消费者-->
+        <!--服务注册中心-->
          <module>cloud-eureka-server7001</module>
          <module>cloud-eureka-server7002</module>
          <!--消息生产者-->
          <module>cloud-stream-kafka-provider8801</module>
+         <module>cloud-stream-kafka-consumer8802</module>
+         <module>cloud-stream-kafka-consumer8803</module>
 
          <!--使用Nacos可以替代eureka+hystrix-->
          <module>cloud-alibaba-provider-payment9001</module>
@@ -105,8 +107,14 @@ ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的�
          <module>cloud-alibaba-consumer-nacos-order83</module>
          <!--使用Nacos可以替代eureka+config+bus实现服务注册和config+bus动态刷新-->
          <module>cloud-alibaba-config-nacos-client3377</module>
+
+         <!--Spring Cloud Alibaba Sentinel服务限流、服务降级-->
+         <module>cloud-alibaba-sentinel-service8401</module>
 @EnableDiscoveryClient和@EnableEurekaClient共同点就是：都是能够让注册中心能够发现，扫描到改服务。
 不同点：@EnableEurekaClient只适用于Eureka作为注册中心，@EnableDiscoveryClient 可以是其他注册中心。
+
+
+systemctl stop firewalld关闭防火墙
 
 nacos部署在Linux使用nginx做反向代理，部署三个伪分布式节点集群，连接本地mysql数据库
 nginx目录/usr/local/nginx

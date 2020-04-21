@@ -31,6 +31,7 @@
         <module>cloud-alibaba-provider-payment9002</module>
         <module>cloud-alibaba-consumer-nacos-order83</module>
         <module>cloud-alibaba-config-nacos-client3377</module>
+        <module>cloud-alibaba-sentinel-service8401</module>
     </modules>
     <packaging>pom</packaging>
     <name>cloud_demo</name>
@@ -38,7 +39,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-    <!--统一管理jar包版本-->
+        <!--统一管理jar包版本-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
