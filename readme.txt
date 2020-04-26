@@ -108,7 +108,7 @@ ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的�
          <!--使用Nacos可以替代eureka+config+bus实现服务注册和config+bus动态刷新-->
          <module>cloud-alibaba-config-nacos-client3377</module>
 
-         <!--Spring Cloud Alibaba Sentinel服务限流、服务降级-->
+         <!--Spring Cloud Alibaba Sentinel服务限流、服务降级、 @SentinelResource()全部异常处理-->
          <module>cloud-alibaba-sentinel-service8401</module>
 @EnableDiscoveryClient和@EnableEurekaClient共同点就是：都是能够让注册中心能够发现，扫描到改服务。
 不同点：@EnableEurekaClient只适用于Eureka作为注册中心，@EnableDiscoveryClient 可以是其他注册中心。
