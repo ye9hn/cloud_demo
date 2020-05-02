@@ -4,8 +4,10 @@ import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.henu.cloud.entities.CommonResult;
 import com.henu.cloud.entities.Payment;
+import com.henu.cloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -43,5 +45,12 @@ public class CircleBreakerController {
     public CommonResult dealBlock(@PathVariable("id") Long id, BlockException exception) {
         Payment payment = new Payment(id, "null");
         return new CommonResult<>(445, "blockHandler-sentinel限流，无此流水号blockException" + exception.getMessage(), payment);
+    }
+
+    @Autowired
+    private PaymentService paymentService;
+@GetMapping("/consumer/openfeign/{id}")
+    public CommonResult<Payment> paymentSQL(@PathVariable("id")Long id){
+        return paymentService.paymentSQL(id);
     }
 }
