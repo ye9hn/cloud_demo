@@ -110,10 +110,16 @@ ribbon是一款客户端负载均衡机制，下面依赖中包含了ribbon的�
 
          <!--Spring Cloud Alibaba Sentinel服务限流、服务降级、 @SentinelResource()全部异常处理-->
          <module>cloud-alibaba-sentinel-service8401</module>
+
+         <!--使用Nacos可以替代eureka+ribbon测试服务熔断，负载均衡-->
+         <module>cloud-alibaba-provider-payment9003</module>
+         <module>cloud-alibaba-provider-payment9004</module>
+         <module>cloud-alibaba-consumer-nacos-order84</module>
 @EnableDiscoveryClient和@EnableEurekaClient共同点就是：都是能够让注册中心能够发现，扫描到改服务。
 不同点：@EnableEurekaClient只适用于Eureka作为注册中心，@EnableDiscoveryClient 可以是其他注册中心。
 
 
+CentOS部署三个nacos做负载均衡配置-start
 systemctl stop firewalld关闭防火墙
 
 nacos部署在Linux使用nginx做反向代理，部署三个伪分布式节点集群，连接本地mysql数据库
@@ -136,3 +142,4 @@ cd distribution/target/nacos-server-$version/nacos/bin
 USE nacos_config;
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
+CentOS部署三个nacos做负载均衡配置-end

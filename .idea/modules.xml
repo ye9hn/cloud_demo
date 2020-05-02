@@ -4,8 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/cloud-alibaba-config-nacos-client3377.iml" filepath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/cloud-alibaba-config-nacos-client3377.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/cloud-alibaba-consumer-nacos-order83.iml" filepath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/cloud-alibaba-consumer-nacos-order83.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order84/cloud-alibaba-consumer-nacos-order84.iml" filepath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order84/cloud-alibaba-consumer-nacos-order84.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9001/cloud-alibaba-provider-payment9001.iml" filepath="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/cloud-alibaba-provider-payment9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9002/cloud-alibaba-provider-payment9002.iml" filepath="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/cloud-alibaba-provider-payment9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9003/cloud-alibaba-provider-payment9003.iml" filepath="$PROJECT_DIR$/cloud-alibaba-provider-payment9003/cloud-alibaba-provider-payment9003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9004/cloud-alibaba-provider-payment9004.iml" filepath="$PROJECT_DIR$/cloud-alibaba-provider-payment9004/cloud-alibaba-provider-payment9004.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-sentinel-service8401/cloud-alibaba-sentinel-service8401.iml" filepath="$PROJECT_DIR$/cloud-alibaba-sentinel-service8401/cloud-alibaba-sentinel-service8401.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" filepath="$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" />
