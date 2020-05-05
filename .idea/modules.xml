@@ -32,6 +32,10 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-kafka-consumer8803/cloud-stream-kafka-consumer8803.iml" filepath="$PROJECT_DIR$/cloud-stream-kafka-consumer8803/cloud-stream-kafka-consumer8803.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-kafka-provider8801/cloud-stream-kafka-provider8801.iml" filepath="$PROJECT_DIR$/cloud-stream-kafka-provider8801/cloud-stream-kafka-provider8801.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud_demo.iml" filepath="$PROJECT_DIR$/cloud_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-account-service2003/seata-account-service2003.iml" filepath="$PROJECT_DIR$/seata-account-service2003/seata-account-service2003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-order-service2001/seata-order-service2001.iml" filepath="$PROJECT_DIR$/seata-order-service2001/seata-order-service2001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-storage-service2002/seata-storage-service2002.iml" filepath="$PROJECT_DIR$/seata-storage-service2002/seata-storage-service2002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-storage-service2002/seata-storage-service3001.iml" filepath="$PROJECT_DIR$/seata-storage-service2002/seata-storage-service3001.iml" />
     </modules>
   </component>
 </project>
