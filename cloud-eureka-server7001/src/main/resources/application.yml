@@ -13,4 +13,4 @@ eureka:
       #设置eureka server交互的地址查询服务注册和注册服务都需要依赖这个地址,单机版设置
 #      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
       #向eureka server集群注册,这里注册到集群中的其中一个实例,相互注册
-      defaultZone: http://eureka7002.com:7002/eureka
+      defaultZone: http://localhost:7002/eureka

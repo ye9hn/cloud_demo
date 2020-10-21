@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.concurrent.TimeUnit;
+
 @RestController
 @Slf4j
 public class PaymentController {
@@ -26,9 +28,9 @@ public class PaymentController {
         }
     }
     @GetMapping("payment/get/{id}")
-    public CommonResult getPaymentById(@PathVariable("id")Long id){
+    public CommonResult getPaymentById(@PathVariable("id")Long id) {
         Payment payment=paymentService.getPaymentById(id);
-        log.info("********插入结果{}"+payment);
+        log.info("********结果{}"+payment);
         if (payment!=null){
             return new CommonResult(200,"查询成功,server port"+serverPort,payment);
         }else{

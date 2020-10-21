@@ -38,6 +38,9 @@
         <module>seata-order-service2001</module>
         <module>seata-account-service2003</module>
         <module>seata-storage-service2002</module>
+        <module>cloud-gateway-zuul</module>
+        <module>cloud-gateway-zuul9222</module>
+        <module>cloud-gateway-zuul9333</module>
     </modules>
     <packaging>pom</packaging>
     <name>cloud_demo</name>
@@ -127,6 +130,7 @@
                     <fork>true</fork>
                     <addResources>true</addResources>
                 </configuration>
+                <version>2.2.4.RELEASE</version>
             </plugin>
         </plugins>
     </build>
