@@ -14,8 +14,8 @@ import java.util.Date;
 /**
  * 定义gateway的filter 做过滤操作 ： pre 业务 post
  */
-@Component
-@Order(0)
+//@Component
+//@Order(0)
 @Slf4j
 public class MyLogGatewayFilter implements GlobalFilter {
 

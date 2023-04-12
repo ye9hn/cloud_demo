@@ -1,0 +1,9 @@
+eureka:
+  client:
+    prefer-same-zone-eureka: true  # 尽量向同一区域的 eureka 注册,默认为true
+    region: huanan                 #机房所属地区
+    availability-zones:
+      huanan: zone-1,zone-2        #华南地区有zone-1,zone-2机房
+    service-url:
+          zone-1: http://localhost:7000/eureka/  #zone-1机房注册地址
+          zone-2: http://localhost:7001/eureka/  #zone-2机房注册地址
